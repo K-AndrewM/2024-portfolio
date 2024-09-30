@@ -392,3 +392,27 @@ p {
     height: 50px;
   }
 }
+
+.luna-sec {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-video-luna {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.tech-logo {
+  width: 96px;
+}
+.tech-container {
+  width: 620px;
+  text-align: center;
+}
