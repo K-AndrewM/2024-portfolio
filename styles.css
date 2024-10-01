@@ -391,6 +391,10 @@ p {
   .LUNA-brand {
     height: 50px;
   }
+
+  .tech-logo {
+    width: 20px;
+  }
 }
 
 .luna-sec {
@@ -410,9 +414,18 @@ p {
 }
 
 .tech-logo {
-  width: 96px;
+  width: 62px;
+  transition: transform 0.3s;
 }
+.tech-logo:hover {
+  transform: scale(1.1);
+}
+
 .tech-container {
-  width: 620px;
+  width: 400px;
   text-align: center;
+}
+
+.overflower {
+  overflow: visible;
 }
