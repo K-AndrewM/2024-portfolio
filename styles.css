@@ -425,13 +425,6 @@ p {
 .luna-video {
   filter: blur(2px);
 }
-.tech-logo {
-  width: 62px;
-  transition: transform 0.3s;
-}
-.tech-logo:hover {
-  transform: scale(1.1);
-}
 
 .tech-container {
   width: 400px;
