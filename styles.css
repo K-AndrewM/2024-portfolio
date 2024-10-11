@@ -175,12 +175,13 @@
   width: 166px;
   padding: 24px 8px;
   margin: 0 8px;
+  border-radius: 12px;
   background-image: linear-gradient(to top right, #111111, #1d1d1d);
   border: solid 2px #252525;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .skill-box p {
-  padding: 24px 16px;
+  padding: 24px 12px;
   margin: 0px;
 }
 
@@ -316,14 +317,14 @@
   /* skills section */
   .skill-box {
     width: 110px;
-    padding: 8px 16px;
+    padding: 14px 16px;
     margin: 0 4px;
+    border-radius: 8px;
     font-size: 10px;
-    padding: 16px;
   }
 
   .skill-box p {
-    padding: 14px 10px;
+    padding: 14px 0px;
     margin: 0px;
   }
 
@@ -345,9 +346,16 @@
   /* skills section */
   .skill-box {
     width: 75px;
-    padding: 6px 12px;
+    padding: 10px 12px;
     margin: 0 4px;
+    border-radius: 6px;
     font-size: 10px;
+  }
+
+  .skill-box p {
+    font-size: 6px;
+    padding: 8px 0px;
+    margin: 0px;
   }
 
   .tech-logo {
