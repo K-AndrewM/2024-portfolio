@@ -5,7 +5,13 @@
 }
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+p {
+  font-size: 18px;
+}
+.xtra-bold {
+  font-weight: 700;
 }
 .default-dark {
   background-color: #191919;
@@ -26,7 +32,14 @@
     rgba(0, 0, 0, 0) 100%
   );
 }
-
+.k-brand {
+  width: 80px;
+  padding: 8px 0px;
+  transition: transform 0.3s;
+}
+.k-brand:hover {
+  transform: scale(1.2);
+}
 .navtext {
   transition: transform 0.3s, color 0.1s;
 }
@@ -37,7 +50,6 @@
 
 .main-name {
   font-size: 38px;
-  font-weight: bold;
 }
 .sdr-clr {
   color: var(--primaryColor);
@@ -88,11 +100,14 @@
   color: #7289d9;
 }
 .about-sec {
-  background-image: url("rsrc/about-section/about-bg.svg");
   background-position: center;
   background-attachment: scroll;
   background-repeat: none;
   background-size: cover;
+}
+.about-img {
+  padding: 10px;
+  width: 76%;
 }
 
 .tech-logo {
@@ -164,7 +179,7 @@
 }
 
 .skills-section {
-  background-image: url("rsrc/skills-section/skills-bg.jpg");
+  background-image: url("rsrc/skills-section/skills-bg.png");
   background-position: center;
   background-attachment: fixed;
   background-repeat: none;
@@ -281,6 +296,13 @@
 
 /* Medium screens */
 @media screen and (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+
+  .about-img {
+    width: 100%;
+  }
   /* timeline section */
   .timeline {
     margin: 50px auto;
